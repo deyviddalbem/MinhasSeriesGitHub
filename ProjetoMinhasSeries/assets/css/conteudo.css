@@ -1,0 +1,64 @@
+
+.box-container{
+display:flex;
+flex-direction:row;
+justify-content:flex-start;
+flex-wrap:wrap;
+border-style: solid;
+padding: 20px;
+max-width:1200px;
+
+/**
+margin:15px auto;
+border-radius:10px;
+**/
+}
+.box-serie{
+box-sizing: border-box;
+/**width: 300px;*/
+margin-top:10px;
+margin:0 auto;
+padding:15px;
+border-radius:10px;
+border-style: solid;
+padding-bottom: 30px; 
+}
+.titulo-serie{
+font-size:27px;
+text-align:center;
+display:block;
+font-family: 'Slabo 27px', serif;
+}
+.genero-serie{
+font-size: 16px;
+color:#A9A4A4;
+text-align:center;
+display:block;
+font-family: 'Roboto', sans-serif;
+}
+.capa-serie{
+border-radius: 5px;
+display:block;
+margin:7px auto;
+}
+.leia-mais{
+background-color: #C8392B;
+color: #FFF;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+display: block;
+margin: 0 auto;
+border: 0;
+width: 100%;
+}
+.resultados-encontrados{
+border-style: solid;
+border-color:black;
+border-radius: 5px;
+margin: 5px auto;
+padding: 5px;    
+}
+.botton{
+    text-decoration: underline;
+}

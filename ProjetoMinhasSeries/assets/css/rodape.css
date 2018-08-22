@@ -1,0 +1,32 @@
+
+.rodape{
+    background-color: #A9A4A4;
+    color: white;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    max-width: 1200px auto;
+    margin: 0 auto;
+
+}
+.texto-rodape{
+    padding-bottom: 7px;
+    font-size: 35px;
+}
+.imagem-rodape{
+    max-width: 1200px;
+    margin: 0px auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+.box-texto-rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+}
+.box-imagem-rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 2px;
+}
