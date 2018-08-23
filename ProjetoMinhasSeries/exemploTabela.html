@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+.Tabela{
+border: 1px red solid;
+border-collapse: collapse;
+width: 80%;
+margin: 0 auto; 
+}
+.Tabela th, .Tabela td{
+    border: 1px red solid;
+    padding: 10px;
+}
+.Tabela th{
+background-color: pink;
+}
+.Tabela td{
+    text-align: center;
+}
+.Tabela td:nth-child(2){
+    text-align: left;
+}
+.Tabela tr:nth-child(odd){
+    background-color: lightgray;
+}
+.Tabela tr:hover{
+    background-color: lawngreen;
+}
+</style>
+</head>
+<body>
+
+    <table class="Tabela">
+        <tr>
+            <th>Codigo</th><!--cabecalho e tags para cabecalho -->
+            <th>Nome</th>
+            <th>Valor</th>
+            
+        </tr>
+        <tr>
+            <td>1</td><!--itens da tabela e tags para itens-->
+            <td>Sabao em po</td>
+            <td>R$ 6.00</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sabao em barra</td>
+            <td>R$ 4.50</td>
+            
+        </tr>
+        <tr>
+                <td>1</td><!--itens da tabela e tags para itens-->
+                <td>Sabao em po</td>
+                <td>R$ 6.00</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sabao em barra</td>
+                <td>R$ 4.50</td>
+                
+            </tr>
+    </table>
+</body>
+</html>
