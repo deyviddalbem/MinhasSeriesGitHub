@@ -1,0 +1,28 @@
+.box-container-contato{
+    margin-bottom: 100px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.formulario-nome-contato{
+padding: 5px;
+width: 30%;
+border: 0;
+border-bottom:2px solid blue; 
+}
+.formulario-email{
+    padding: 5px;
+    width: 30%;
+    border: 0;
+    border-bottom:2px solid blue; 
+}
+.nome-contato{
+margin-top: 10px;
+margin-left: 5px;
+font-size: 20px;
+}
+.email-contato{
+margin-top: 10px;
+margin-left: 5px;
+font-size: 20px;
+}
+
