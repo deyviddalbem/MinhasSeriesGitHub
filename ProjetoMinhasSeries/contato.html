@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="assets/css/conteudo.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
         <link rel="stylesheet" href="assets/css/formularios.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px">
     </head>
     <body>
         <header>
@@ -19,7 +20,7 @@
                                 <li><a class="menu-link" href="#" title=" Series Renovadas ">Series Renovadas</a></li>
                                 <li><a class="menu-link" href="#" title=" Series em Destaque ">Series em Destaque</a></li>
                                 <li><a class="menu-link" href="#" title=" Novas Series ">Novas series</a></li>
-                                <li><a class="menu-link" href="#">Contato</a></li>
+                                <li><a class="menu-link" href="MinhasSeries/contato.html" title="Contato">Contato</a></li>
                             </ul>
                         </div>
             </nav>
@@ -54,13 +55,29 @@
                                     <label for="email">Email: </label>
                                     <input type="mail" id="email" placeholder="Insira um email" class="formulario-email">
                                 </div>
+                                <div class="telefone">
+                                    <label for="telefone">Tel:</label>
+                                    <input type="tel" id="telefone" placeholder="Insira seu telefone" class="formulario-telefone">
+                                    <label for="whatsApp">WhatsApp: </label>
+                                    <input type="radio" id="sim" name="whatsApp">
+                                    <label for "whatsApp">Sim</label>
+                                    <input type="radio" id="nao" name="whatsApp">
+                                    <label for "whatsApp">Não</label>
+                                </div>
+                                <div>
+                                    <label for="comentario" class="comentario">Comentário:</label>
+                                    <textarea id="comentario" class="formulario-comentario"></textarea>
+                                </div>
+                                <div>
+                                    <input type="submit" value="salvar" class="botao-salvar">
+                                </div>
 
                             </form>
                                 
                     </div>            
         </div>
          <!--rodape do site-->
-         <footer class="rodape">
+         <footer class="rodape-contato">
                 <div>
                     <div class="box-texto-rodape">
                         <p class="texto-rodape">Minhas Séries</p>

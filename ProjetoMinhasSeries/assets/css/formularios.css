@@ -1,28 +1,95 @@
+*{margin: 0;padding: 0;
+font-family: 'Roboto', sans-serif;}
 .box-container-contato{
-    margin-bottom: 100px;
-    border-style: solid;
-    border-radius: 10px;
+margin-bottom: 100px;
+border-style: solid;
+border-radius: 10px;
+}
+.rodape-contato{
+    background-color: #A9A4A4;
+    color: white;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    max-width: 1200px auto;
+    margin: 0 auto;
 }
 .formulario-nome-contato{
 padding: 5px;
-width: 30%;
+width: 60%;
 border: 0;
-border-bottom:2px solid blue; 
+border-bottom:2px solid blue;
+margin-left: 17px;
+border-style: solid; 
 }
 .formulario-email{
-    padding: 5px;
-    width: 30%;
-    border: 0;
-    border-bottom:2px solid blue; 
+padding: 5px;
+width: 60%;
+border: 0;
+border-bottom:2px solid blue;
+margin-left: 15px;
+ 
 }
-.nome-contato{
-margin-top: 10px;
-margin-left: 5px;
-font-size: 20px;
+.formulario-telefone{
+padding: 5px;
+width: 23%;
+border: 0;
+border-bottom:2px solid blue;
+margin-left: 35px;
+border-style: solid; 
 }
-.email-contato{
-margin-top: 10px;
-margin-left: 5px;
-font-size: 20px;
+.formulario-comentario{
+border:1px blue  solid;
+
 }
 
+.nome-contato{
+width: 50%;
+margin-top: 20px;
+margin-left: 10px;
+font-size: 20px;
+border-left:2px ridge blue;
+padding-left: 3px;
+}
+
+.email-contato{
+width: 50%;
+border: 0;
+border-left:2px ridge blue;
+padding-left: 5px;
+margin-top: 13px;
+margin-left: 10px;
+font-size: 20px;
+border-style: solid;
+}
+.telefone{
+width: 50%;
+border: 0;
+border-left:2px ridge blue;
+padding-left: 5px;
+margin-top: 20px;
+margin-left: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.comentario{
+border: 0;
+border-left:2px ridge blue;
+padding-left: 10px;
+margin-top: 20px;
+margin-left: 5px;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.botao-salvar{
+    background: linear-gradient(#c0392b,#e74c3c);
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    margin:0;
+    width: 10%;
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 105px;
+    
+}
