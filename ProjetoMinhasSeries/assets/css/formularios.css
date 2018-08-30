@@ -81,15 +81,18 @@ font-size: 20px;
 margin-bottom: 20px;
 }
 .botao-salvar{
-    background: linear-gradient(#c0392b,#e74c3c);
-    color: white;
-    font-size: 18px;
-    padding: 4px;
-    margin:0;
-    width: 10%;
-    border-style: solid;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    margin-left: 105px;
+background: linear-gradient(#c0392b,#e74c3c);
+color: white;
+font-size: 18px;
+padding: 4px;
+margin:0;
+width: 10%;
+border-style: solid;
+margin-bottom: 5px;
+margin-top: 10px;
+margin-left: 105px;
     
+}
+.radio-telefone{
+    font-size: 15px;
 }
